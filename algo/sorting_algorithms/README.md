@@ -9,7 +9,7 @@
 - [ ] Heap Sort
 
 
-##### Insertion Sort - Sortowanie przez wstawianie
+#### Insertion Sort - Sortowanie przez wstawianie
 Złożoność: `O(n^2)`
 
 ---
