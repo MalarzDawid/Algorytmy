@@ -8,4 +8,4 @@ black:
 	black --line-length 120 .
 
 isort:
-	isort --settings-path setup.cfg .
+	isort .
