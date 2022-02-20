@@ -1,3 +1,11 @@
-format:
-	black algo/*.py tests/*.py
-	isort algo/*.py tests/*.py
+install:
+	pip3 install -r requirements.txt
+
+# Linters
+format: black isort
+
+black:
+	black --line-length 120 .
+
+isort:
+	isort .
